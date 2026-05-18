@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Priya Nair &mdash; Photography</title>
+<title>Shinu Clicks &mdash; Photography</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   /* ═══════════════════════════════════════════════
-     ✏️  EASY IMAGE MANAGEMENT
+      EASY IMAGE MANAGEMENT
      Add/remove/change images in the IMAGES object
      below. Each category has a simple array.
      DO NOT touch anything below the config section.
@@ -71,7 +71,7 @@
     position: absolute; inset: 0;
     background-image: var(--hero-img);
     background-size: cover; background-position: center;
-    transition: transform 8s ease;
+    transition: transform 4s ease;
   }
   .hero-bg::after {
     content: '';
@@ -135,7 +135,7 @@
 
   /* ──────── MASONRY GRID ──────── */
   /*
-    🏗️ GRID LAYOUT:
+    GRID LAYOUT:
     The masonry grid uses CSS columns. Images fill
     naturally — no need to worry about heights.
     Add more images and the grid adjusts itself.
@@ -341,79 +341,95 @@
 <body>
 
 <!-- ═══════════════════════════════════════════════════════════
-     ✏️  IMAGE CONFIGURATION — EDIT THIS SECTION ONLY
      
      HOW TO ADD IMAGES:
      1. Replace the placeholder URLs with your own image URLs
      2. Each image needs: src, alt, caption, and category
-     3. Categories: "all", "portrait", "wedding", "commercial", "travel"
+     3. Categories: "all", "portrait", "wedding", "commercial", "commercial"
      4. The masonry grid handles sizing automatically
      
-     HERO IMAGE: Change heroImage to any image URL
-     
-     ABOUT IMAGE: Change aboutImage to your headshot URL
 ═══════════════════════════════════════════════════════════ -->
 <script>
 const CONFIG = {
 
   // ── Photographer Details ──
-  name: "Priya Nair",
+  name: "Shinu Clicks",
   tagline: "Visual Storyteller \u00B7 Bangalore",
   heroHeadline: ["Capturing", "Bangalore's", "Soul"],
   heroBio: "Documentary & portrait photographer based in Namma Bengaluru. I find beauty in the quiet moments and the vibrant chaos alike.",
 
   // ── Hero Background Image ──
-  heroImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1800&q=80",
+  heroImage: "IMG/img11.jpeg",
 
   // ── About Section Image ──
-  aboutImage: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80",
+  aboutImage: "IMG/imgshinu.jpeg",
 
   // ── Stats ──
   stats: [
-    { num: "8+", label: "Years Experience" },
+    { num: "4+", label: "Years Experience" },
     { num: "400+", label: "Projects Done" },
     { num: "200+", label: "Happy Clients" },
-    { num: "15+", label: "Awards Won" }
+    // { num: "15+", label: "Awards Won" }
   ],
 
   // ── Portfolio Images ──
-  // category options: portrait, wedding, commercial, travel
+  // category options: portrait, wedding, commercial, commercial
   images: [
     {
-      src: "https://images.unsplash.com/photo-1595152772835-219674b2a163?w=600&q=80",
+      src: "IMG/img1.jpeg",
       alt: "Portrait in golden light", caption: "Golden Hour Portrait", category: "portrait"
     },
     {
-      src: "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=600&q=80",
+      src: "IMG/img2.jpeg",
       alt: "Bridal detail shot", caption: "Bridal Elegance", category: "wedding"
     },
     {
-      src: "https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=600&q=80",
-      alt: "Travel landscape", caption: "Coorg Mist", category: "travel"
+      src: "IMG/img3.jpeg",
+      alt: "commercial landscape", caption: "Coorg Mist", category: "commercial"
     },
     {
-      src: "https://images.unsplash.com/photo-1611403119860-57c4937ef987?w=600&q=80",
+      src: "IMG/img4.jpeg",
       alt: "Wedding ceremony", caption: "Sacred Vows", category: "wedding"
     },
     {
-      src: "https://images.unsplash.com/photo-1525268323446-0505b6fe7778?w=600&q=80",
+      src: "IMG/img5.jpeg",
       alt: "Street portrait", caption: "Cubbon Park Morning", category: "portrait"
     },
     {
-      src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-      alt: "Misty hills", caption: "Chikmagalur Trails", category: "travel"
+      src: "IMG/img6.jpeg",
+      alt: "Misty hills", caption: "Chikmagalur Trails", category: "commercial"
     },
     {
-      src: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&q=80",
+      src: "IMG/img7.jpeg",
       alt: "Portrait study", caption: "Natural Light Study", category: "portrait"
     },
     {
-      src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80",
+      src: "IMG/img33.jpeg",
       alt: "Wedding couple", caption: "The First Look", category: "wedding"
     },
     {
-      src: "https://images.unsplash.com/photo-1455156218388-5e61b526818b?w=600&q=80",
-      alt: "Desert travel", caption: "Hampi Silhouettes", category: "travel"
+      src: "IMG/img9.jpeg",
+      alt: "commercial", caption: "Hampi Silhouettes", category: "commercial"
+    },
+    {
+      src: "IMG/img10.jpeg",
+      alt: "commercial", caption: "Hampi Silhouettes", category: "commercial"
+    },
+    {
+      src: "IMG/img15.jpeg",
+      alt: "commercial", caption: "Hampi Silhouettes", category: "commercial"
+    },
+    {
+      src: "IMG/img16.jpeg",
+      alt: "commercial", caption: "Hampi Silhouettes", category: "commercial"
+    },
+    {
+      src: "IMG/img17.jpeg",
+      alt: "commercial", caption: "Hampi Silhouettes", category: "commercial"
+    },
+    {
+      src: "IMG/img18.jpeg",
+      alt: "commercial", caption: "Hampi Silhouettes", category: "commercial"
     },
   ],
 
@@ -436,7 +452,7 @@ const CONFIG = {
   // ── Testimonials ──
   testimonials: [
     {
-      text: "Priya has an incredible eye for light and emotion. Our wedding album is something we'll cherish for a lifetime. Every photo tells a story.",
+      text: "Shinu has an incredible eye for light and emotion. Our wedding album is something we'll cherish for a lifetime. Every photo tells a story.",
       name: "Ananya & Karthik",
       role: "Wedding Clients, Koramangala"
     },
@@ -446,7 +462,7 @@ const CONFIG = {
       role: "Founder, Studio Bloom"
     },
     {
-      text: "My LinkedIn headshots got me three callbacks within a week. Priya made me feel so comfortable during the shoot. Highly recommended!",
+      text: "My LinkedIn headshots got me three callbacks within a week. Shinu made me feel so comfortable during the shoot. Highly recommended!",
       name: "Rajesh Venkataraman",
       role: "Senior Consultant, Bengaluru"
     }
@@ -486,7 +502,7 @@ const CONFIG = {
 <section id="portfolio">
   <p class="section-label">Selected Work</p>
   <h2 class="section-title">Portfolio</h2>
-  <p class="section-sub">A curated selection of moments — portraits, weddings, commercial work, and travel.</p>
+  <p class="section-sub">A curated selection of moments — portraits, weddings, commercial work, and commercial.</p>
   <div class="filter-bar" id="filter-bar"></div>
   <div class="masonry" id="masonry-grid"></div>
 </section>
@@ -497,12 +513,12 @@ const CONFIG = {
   <h2 class="section-title">About Me</h2>
   <div class="about-grid">
     <div class="about-img-wrap">
-      <img id="about-img" src="" alt="Priya Nair &mdash; Photographer">
+      <img id="about-img" src="" alt="shinu &mdash; Photographer">
     </div>
     <div>
       <p class="section-sub" style="max-width:100%">
         Born and raised in Kerala, I fell in love with the art of photography while documenting my family's travels. 
-        I moved to Bangalore eight years ago and the city's contradictions &mdash; its quiet gardens and roaring tech pulse &mdash; 
+        I moved to Bangalore four years ago and the city's contradictions &mdash; its quiet gardens and roaring tech pulse &mdash; 
         became my muse.<br><br>
         I shoot with natural light whenever possible. I believe the best photographs aren't taken &mdash; 
         they're waited for. A patient eye is my most important piece of equipment.
@@ -533,7 +549,7 @@ const CONFIG = {
   <h2 class="section-title">Book a Session</h2>
   <div class="contact-inner">
     <div class="contact-info">
-      <p>Available for weddings, portraits, brand projects, and travel assignments across Bangalore and South India.</p>
+      <p>Available for weddings, portraits, brand projects, and commercial assignments across Bangalore and South India.</p>
       <div class="contact-detail">
         <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
         <span>Koramangala, Bangalore &mdash; 560034</span>
@@ -544,11 +560,11 @@ const CONFIG = {
       </div>
       <div class="contact-detail">
         <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        <span>hello@priyanair.photo</span>
+        <span>hello@shinu.photo</span>
       </div>
       <div class="contact-detail">
         <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-        <span>@priyanair.photo</span>
+        <span>@shinu.photo</span>
       </div>
     </div>
     <form class="contact-form" onsubmit="return false;">
@@ -561,7 +577,7 @@ const CONFIG = {
         <option>Wedding / Sangeet</option>
         <option>Portrait / Headshot</option>
         <option>Commercial / Brand</option>
-        <option>Travel Assignment</option>
+        <option>commercial Assignment</option>
         <option>Other</option>
       </select>
       <input type="text" placeholder="Preferred Date / Month">
@@ -615,6 +631,7 @@ CONFIG.stats.forEach(s => {
     </div>`;
 });
 
+// <div class="service-price">${s.price}</div>
 // Services
 const svcEl = document.getElementById('services-grid');
 CONFIG.services.forEach(s => {
@@ -623,7 +640,7 @@ CONFIG.services.forEach(s => {
       <div class="service-icon">${s.icon}</div>
       <div class="service-name">${s.name}</div>
       <p class="service-desc">${s.desc}</p>
-      <div class="service-price">${s.price}</div>
+
     </div>`;
 });
 
