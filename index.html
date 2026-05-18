@@ -3,11 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shinu Clicks — Photography</title>
+<title>Priya Nair &mdash; Photography</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
- 
+  /* ═══════════════════════════════════════════════
+     ✏️  EASY IMAGE MANAGEMENT
+     Add/remove/change images in the IMAGES object
+     below. Each category has a simple array.
+     DO NOT touch anything below the config section.
+  ═══════════════════════════════════════════════ */
 
   :root {
     --bg: #0d0d0d;
@@ -352,16 +357,16 @@
 const CONFIG = {
 
   // ── Photographer Details ──
-  name: "Shinu Clicks",
-  tagline: "Visual Storyteller · Bangalore",
+  name: "Priya Nair",
+  tagline: "Visual Storyteller \u00B7 Bangalore",
   heroHeadline: ["Capturing", "Bangalore's", "Soul"],
   heroBio: "Documentary & portrait photographer based in Namma Bengaluru. I find beauty in the quiet moments and the vibrant chaos alike.",
 
   // ── Hero Background Image ──
-  heroImage: "IMG/img11.jpeg",
+  heroImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1800&q=80",
 
   // ── About Section Image ──
-  aboutImage: "",
+  aboutImage: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80",
 
   // ── Stats ──
   stats: [
@@ -375,51 +380,39 @@ const CONFIG = {
   // category options: portrait, wedding, commercial, travel
   images: [
     {
-      src: "IMG/img1.jpeg",
+      src: "https://images.unsplash.com/photo-1595152772835-219674b2a163?w=600&q=80",
       alt: "Portrait in golden light", caption: "Golden Hour Portrait", category: "portrait"
     },
     {
-      src: "IMG/img2.jpeg",
+      src: "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=600&q=80",
       alt: "Bridal detail shot", caption: "Bridal Elegance", category: "wedding"
     },
     {
-      src: "IMG/img3.jpeg",
-      alt: "product", caption: "Product Story", category: ""
-    },
-    {
-      src: "IMG/img4.jpeg",
+      src: "https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=600&q=80",
       alt: "Travel landscape", caption: "Coorg Mist", category: "travel"
     },
     {
-      src: "IMG/img5.jpeg",
+      src: "https://images.unsplash.com/photo-1611403119860-57c4937ef987?w=600&q=80",
       alt: "Wedding ceremony", caption: "Sacred Vows", category: "wedding"
     },
     {
-      src: "IMG/img6.jpeg",
+      src: "https://images.unsplash.com/photo-1525268323446-0505b6fe7778?w=600&q=80",
       alt: "Street portrait", caption: "Cubbon Park Morning", category: "portrait"
     },
     {
-      src: "IMG/img7.jpeg",
-      alt: "Camera equipment", caption: "Behind the Lens", category: ""
-    },
-    {
-      src: "IMG/img33.jpeg",
+      src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
       alt: "Misty hills", caption: "Chikmagalur Trails", category: "travel"
     },
     {
-      src: "IMG/img9.jpeg",
+      src: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&q=80",
       alt: "Portrait study", caption: "Natural Light Study", category: "portrait"
     },
     {
-      src: "IMG/img10.jpeg",
+      src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80",
       alt: "Wedding couple", caption: "The First Look", category: "wedding"
     },
     {
-      src: "IMG/img11.jpeg",
-      alt: "Food photography", caption: "Taste of Karnataka", category: ""
-    },
-    {
-      src: "IMG/img21.jpeg",
+      src: "https://images.unsplash.com/photo-1455156218388-5e61b526818b?w=600&q=80",
       alt: "Desert travel", caption: "Hampi Silhouettes", category: "travel"
     },
   ],
@@ -430,26 +423,20 @@ const CONFIG = {
       icon: "💍",
       name: "Wedding & Sangeet",
       desc: "Complete wedding day coverage with a journalistic eye. Candid moments, cinematic portraits, all-day presence.",
-      price: "Starting ₹"
+      price: "Starting \u20B935,000"
     },
     {
       icon: "🧍🏽‍♀️",
       name: "Portraits & Headshots",
-      desc: "Personal branding, LinkedIn profiles, actor portfolios — images that communicate who you are at a glance.",
-      price: "Starting ₹8,000"
+      desc: "Personal branding, LinkedIn profiles, actor portfolios \u2014 images that communicate who you are at a glance.",
+      price: "Starting \u20B98,000"
     },
-    {
-      icon: "📦",
-      name: "Commercial & Brand",
-      desc: "Product photography, lifestyle campaigns, and brand storytelling for startups and established businesses.",
-      price: "Starting ₹"
-    }
   ],
 
   // ── Testimonials ──
   testimonials: [
     {
-      text: "Shinu Clicks an incredible eye for light and emotion. Our wedding album is something we'll cherish for a lifetime. Every photo tells a story.",
+      text: "Priya has an incredible eye for light and emotion. Our wedding album is something we'll cherish for a lifetime. Every photo tells a story.",
       name: "Ananya & Karthik",
       role: "Wedding Clients, Koramangala"
     },
@@ -459,7 +446,7 @@ const CONFIG = {
       role: "Founder, Studio Bloom"
     },
     {
-      text: "My LinkedIn headshots got me three callbacks within a week. Shinu Clicks me feel so comfortable during the shoot. Highly recommended!",
+      text: "My LinkedIn headshots got me three callbacks within a week. Priya made me feel so comfortable during the shoot. Highly recommended!",
       name: "Rajesh Venkataraman",
       role: "Senior Consultant, Bengaluru"
     }
@@ -510,14 +497,14 @@ const CONFIG = {
   <h2 class="section-title">About Me</h2>
   <div class="about-grid">
     <div class="about-img-wrap">
-      <img id="about-img" src="" alt="Shinu Clicks — Photographer">
+      <img id="about-img" src="" alt="Priya Nair &mdash; Photographer">
     </div>
     <div>
       <p class="section-sub" style="max-width:100%">
         Born and raised in Kerala, I fell in love with the art of photography while documenting my family's travels. 
-        I moved to Bangalore eight years ago and the city's contradictions — its quiet gardens and roaring tech pulse — 
+        I moved to Bangalore eight years ago and the city's contradictions &mdash; its quiet gardens and roaring tech pulse &mdash; 
         became my muse.<br><br>
-        I shoot with natural light whenever possible. I believe the best photographs aren't taken — 
+        I shoot with natural light whenever possible. I believe the best photographs aren't taken &mdash; 
         they're waited for. A patient eye is my most important piece of equipment.
       </p>
       <div class="about-stats" id="about-stats"></div>
@@ -549,7 +536,7 @@ const CONFIG = {
       <p>Available for weddings, portraits, brand projects, and travel assignments across Bangalore and South India.</p>
       <div class="contact-detail">
         <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        <span>Koramangala, Bangalore — 560034</span>
+        <span>Koramangala, Bangalore &mdash; 560034</span>
       </div>
       <div class="contact-detail">
         <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012.18 1h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 8.1a16 16 0 006 6l.46-.46a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
@@ -557,11 +544,11 @@ const CONFIG = {
       </div>
       <div class="contact-detail">
         <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        <span>hello@shinu.photo</span>
+        <span>hello@priyanair.photo</span>
       </div>
       <div class="contact-detail">
         <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-        <span>@shinu.photo</span>
+        <span>@priyanair.photo</span>
       </div>
     </div>
     <form class="contact-form" onsubmit="return false;">
@@ -629,16 +616,14 @@ CONFIG.stats.forEach(s => {
 });
 
 // Services
-    //   <div class="service-price">${s.price}</div>     use this for pricing in service
-
 const svcEl = document.getElementById('services-grid');
 CONFIG.services.forEach(s => {
   svcEl.innerHTML += `
     <div class="service-card">
       <div class="service-icon">${s.icon}</div>
       <div class="service-name">${s.name}</div>
-      <p class="service-desc">${s.desc}</p>\
-
+      <p class="service-desc">${s.desc}</p>
+      <div class="service-price">${s.price}</div>
     </div>`;
 });
 
